@@ -1,3 +1,90 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*______________________________________________*/
+
 .fundo {
     background: #262d31;
+}
+
+#menu ul {
+    padding:45px;
+    margin:0px;
+    background: #326b77;
+    list-style:none;
+    text-align: center;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 5px 35px;
+    display: inline-block;
+
+    /* visual do link */
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #262d31;
+}
+
+#menu ul li a:hover {
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 52px;
+}
+
+h1:hover {
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
 }
